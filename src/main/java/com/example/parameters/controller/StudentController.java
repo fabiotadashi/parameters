@@ -1,6 +1,6 @@
-package com.example.student;
+package com.example.parameters.controller;
 
-import com.example.model.Student;
+import com.example.parameters.model.Student;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
