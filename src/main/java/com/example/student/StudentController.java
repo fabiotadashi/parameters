@@ -1,6 +1,6 @@
-package com.example.parameters.controller;
+package com.example.student;
 
-import com.example.parameters.model.Student;
+import com.example.model.Student;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -16,8 +16,8 @@ public class StudentController {
     public StudentController() {
         studentList = new ArrayList<>();
         studentList.add(new Student("1", "Fabio"));
-        studentList.add(new Student("2", "João"));
-        studentList.add(new Student("3", "José"));
+        studentList.add(new Student("2", "José"));
+        studentList.add(new Student("3", "João"));
     }
 
 }

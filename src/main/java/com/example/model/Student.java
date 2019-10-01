@@ -1,4 +1,4 @@
-package com.example.parameters.model;
+package com.example.model;
 
 public class Student {
 
